@@ -27,6 +27,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="./plugins/fontawesome/css/all.css" />
 
+    <!-- favicon -->
+    <link rel='shortcut icon' href='favicon.png' type='image/png' />
 
     <title>The Circle | Community</title>
   </head>
@@ -38,7 +40,7 @@
       <div class="brand"></div>
         <div class="nav-buttons">
                 <button class="bookCircle" type="submit"><a href="#form">BOOK A CIRCLE</a></button>
-                <button class="fullMenu"  onclick="openNav()"><i class="fal fa-bars"></i></button>
+                <button class="full"  onclick="openNav()"><i class="fal fa-bars"></i></button>
 
         </div>
 
@@ -72,13 +74,6 @@
                         </div>
                       </div>
                            
-                            <!-- <div class="socialicon">
-                                  <i class="far fa-hashtag"></i>
-                                  <i class="fa fa-twitter"></i>
-                                  <i class="fab fa-linkedin-in"></i>
-                                  <i class="fab fa-google"></i>
-                                  <i class="fas fa-user"></i>
-                            </div>               -->
                         </div>
                   </div>
                 </div>
@@ -87,8 +82,47 @@
               </div>
     </div>
     <!-- Navbar -->
-        
-    <!-- Slidder -->
+
+    <!-- full menu  phone-->
+<div class="fullMenu">
+<!-- Navigation -->
+<div class="b-nav">
+    <li><a class="b-link" href="#thecircle">THE CIRCLE</a></li>
+    <li><a class="b-link" href="#attend">WHO SHOULD ATTEND?</a></li>
+    <li><a class="b-link" href="#meetups">MEETUPS</a></li>
+    <li><a class="b-link" href="#upcoming">UPCOMING MEETUPS</a></li>
+    <li><a class="b-link" href="#invitation">INVITATION PROCESS</a></li>
+    <li><a class="b-link" href="#mission">MISSION</a></li>
+    <li><a class="b-link" href="#form">JOIN THE CIRCLE</a></li>
+    <li><a class="b-link" href="#pastattendees">PAST ATTENDEES</a></li>
+  </div>
+  
+  <!-- Burger-Icon -->
+  <div class="b-container">
+    <div class="b-menu">
+      <div class="b-bun b-bun--top"></div>
+      <div class="b-bun b-bun--mid"></div>
+      <div class="b-bun b-bun--bottom"></div>
+    </div>
+  
+    <!-- Burger-Brand -->
+    <a href="#" class="b-brand"></a>
+  </div>
+</div>
+<!-- full menu        -->
+      
+<!-- header 1 phone -->
+   <!-- section 4 -->
+   <div class="section4 header1" >
+      <div class="heading">
+        <div class="box">
+        <h3>THE <span>CIRCLE</span></h3>
+        <p>Closed community of the most driven,humble and informed Entrepreneurial Talent</p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Header 2 Slidder desktop -->
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -159,16 +193,16 @@
         
               <div class="row">
                   <div class="col-md-3 col-sm-12 image">
-                    <img src="./img/1.png" alt="">
+                    <img src="./img/10.png" alt="">
                   </div>
                   <div class="col-md-3 col-sm-12 image">
-                      <img src="./img/4.png" alt="">
+                      <img src="./img/40.png" alt="">
                     </div>
                     <div class="col-md-3 col-sm-12 image">
-                        <img src="./img/3.png" alt="">
+                        <img src="./img/30.png" alt="">
                       </div>
                       <div class="col-md-3 col-sm-12 image">
-                          <img src="./img/2.png" alt="">
+                          <img src="./img/20.png" alt="">
                         </div>
                 </div>
         </div>
@@ -184,24 +218,27 @@
           <div class="box">
               <div class="row row1">
                 <div class="col-md-6 col-sm-12 image">
-                    <img src="./img/10.png" alt="">
+                    <img src="./img/nt1.png" alt="">
                 </div>
                 <div class="col-md-6 col-sm-12 content">
                   <h3>Individuals who are in the early stages of their startup</h3>
                 </div>
               </div>
               <div class="row row2">
+                  <div class="col-md-6 col-sm-12 image first">
+                      <img src="./img/nt2.png" alt="">
+                  </div>
                   <div class="col-md-6 col-sm-12 content">
                       <h3>Individuals who plan to start in the near future </h3>
                       </div>   
-                <div class="col-md-6 col-sm-12 image">
-                      <img src="./img/10.png" alt="">
+                <div class="col-md-6 col-sm-12 image second">
+                      <img src="./img/nt2.png" alt="">
                   </div>
                   
                 </div>
                 <div class="row row3">
                     <div class="col-md-6 col-sm-12 image">
-                        <img src="./img/10.png" alt="">
+                        <img src="./img/nt3.png" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 content">
                       <h3>Individuals who are inclined to work with startups before starting one</h3>
@@ -331,7 +368,7 @@
                         <input type="text" class="form-control" id="profile" placeholder="Linkedin Profile">
                       </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group expectation">
                         <label for="comment">What is it that you are expecting from the meetup? <span>*</span></label>
                         <textarea class="form-control" rows="5" id="comment" placeholder="max 300 words"></textarea>
                       </div>
@@ -361,64 +398,64 @@
                     <div id="testimonial-slider" class="owl-carousel">
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="./img/person.jpg" alt="">
+                                <img src="./img/t1.jpg" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
-                                </p>
-                                <h3 class="testimonial-title">williamson</h3>
-                                <small class="post">/ Web Designer</small>
+                                    Combination of the right people, venue, food & beverage, everything was great. Highly recommended. 
+                                   </p>
+                                <h3 class="testimonial-title">Bob Moore</h3>
+                                <small class="post">/ Entrepreneur</small>
                             </div>
                         </div>
          
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="./img/person.jpg" alt="">
+                                <img src="./img/t2.jpg" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                  Great people, great food, awesome ideas, positive aura, all under one roof. Time well spent.
                                 </p>
-                                <h3 class="testimonial-title">kristiana</h3>
-                                <small class="post">/ Web Developer</small>
+                                <h3 class="testimonial-title">Aditya Roy</h3>
+                                <small class="post">/ Influencer</small>
                             </div>
                         </div>
 
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="./img/person.jpg" alt="">
+                                <img src="./img/t3.jpg" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
-                                </p>
-                                <h3 class="testimonial-title">kristiana</h3>
-                                <small class="post">/ Web Developer</small>
+                                  The Circle is a must attend event. I have attended the circle thrice, and everytime I got to learn and meet awesome people. 
+                                         </p>
+                                <h3 class="testimonial-title">Manvi Singh</h3>
+                                <small class="post">/ HR Manager</small>
                             </div>
                         </div>
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="./img/person.jpg" alt="">
+                                <img src="./img/t4.jpg" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                A must go event. Highly appreciate the initiative by Taranjeet Singh.  
                                 </p>
-                                <h3 class="testimonial-title">kristiana</h3>
-                                <small class="post">/ Web Developer</small>
+                                <h3 class="testimonial-title">Raghav Raghuvanshi</h3>
+                                <small class="post">/ Digital Marketer</small>
                             </div>
                         </div>
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="./img/person.jpg" alt="">
+                                <img src="./img/t5.jpg" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                Looking forward to attend many more circles. Good job. 
                                 </p>
-                                <h3 class="testimonial-title">kristiana</h3>
-                                <small class="post">/ Web Developer</small>
+                                <h3 class="testimonial-title">Bhupinder Singh</h3>
+                                <small class="post">/ Entrepreneur</small>
                             </div>
                         </div>
                     </div>
@@ -440,31 +477,31 @@
                           <div id="host-slider" class="owl-carousel">
                               <div class="testimonial">
                                   <p class="description">
-                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et."
+                                      "We realised there isn't a platform for 'Entrepreneurial Talent' to discuss & brainstorm ideas. Hence, we decided to build a community of early stage to be entrepreneurs to enable them to kickstart their journey."
                                   </p>
            
                                   <div class="testimonial-review">
                                       <div class="pic">
-                                          <img src="./img/person.jpg" alt="">
+                                          <img src="./img/host1.jpg" alt="">
                                       </div>
                                       <h4 class="testimonial-title">
-                                          williamson
-                                          <small>Web Developer</small>
+                                          Taranjeet Singh
+                                          <small>Full Stack Developer</small>
                                       </h4>
                                   </div>
                               </div>
                               <div class="testimonial">
                                   <p class="description">
-                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et."
+                                      "Reason to attend the Circle could be anything, It could be finding co-founders, doing market research, developing a unique insight, understanding their industry deeply, getting a sound advisory board, raising seed capital or something specific to their domain."
                                   </p>
            
                                   <div class="testimonial-review">
                                       <div class="pic">
-                                          <img src="./img/person.jpg" alt="">
+                                          <img src="./img/host2.jpg" alt="">
                                       </div>
                                       <h4 class="testimonial-title">
-                                          williamson
-                                          <small>Web Developer</small>
+                                          Bhavik Agarwal
+                                          <small>Entrepreneur</small>
                                       </h4>
                                   </div>
                               </div>
@@ -547,6 +584,7 @@
 
     <!-- my js -->
      <script src="/js/fullnav.js"></script>
+     <script src="/js/fullMenu.js"></script>
 
       <!-- Navbar scroll effect  -->
     <script>

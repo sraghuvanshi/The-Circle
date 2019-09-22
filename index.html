@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- owl carousel (testimonial and host) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+    <!-- my css -->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- <link rel="stylesheet" href="/styles/animate.css"> -->
+
+    <!-- plugins -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./plugins/fontawesome/css/all.css" />
+
+
+    <title>The Circle | Community</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+   
+    <div class="navbar" id="navlist">
+      <div class="brand"></div>
+        <div class="nav-buttons">
+                <button class="bookCircle" type="submit"><a href="#form">BOOK A CIRCLE</a></button>
+                <button class="fullMenu"  onclick="openNav()"><i class="fal fa-bars"></i></button>
+
+        </div>
+
+        <div id="myNav" class="fullNav">
+                
+                <div class="row">
+                  <div class="col-lg-7 col-md-0 col-sm-0">
+                    <div class="fullNav-image"></div>
+                  </div>
+
+
+                  <div class=" col-lg-5 col-md-12 col-sm-12">
+                      <div class="fullNav-content">
+                        <div class="close">
+                          <!-- <button><a class="closebtn" onclick="closeNav()">CLOSE</a></button> -->
+                          <a class="closebtn" onclick="closeNav()"><i class="far fa-times"></i></a>
+                        </div>
+                        <div class="fullNav-pages">
+            
+                       <div>
+                              <a href="#thecircle">THE CIRCLE</a>
+                              <a href="#attend">WHO SHOULD ATTEND?</a>
+                              <a href="#meetups">MEETUPS</a>
+                              <a href="#upcoming">UPCOMING MEETUPS</a>
+            
+                              <a href="#invitation">INVITATION PROCESS</a>
+                              <a href="#mission">MISSION</a>
+                              <a href="#form">JOIN THE CIRCLE</a>
+                              <a href="#pastattendees">PAST ATTENDEES</a>
+            
+                        </div>
+                      </div>
+                           
+                            <!-- <div class="socialicon">
+                                  <i class="far fa-hashtag"></i>
+                                  <i class="fa fa-twitter"></i>
+                                  <i class="fab fa-linkedin-in"></i>
+                                  <i class="fab fa-google"></i>
+                                  <i class="fas fa-user"></i>
+                            </div>               -->
+                        </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+    </div>
+    <!-- Navbar -->
+        
+    <!-- Slidder -->
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- slide 1 -->
+            <div class="carousel-item active">
+                <div class="banner" style="background-image: url(./img/s1.png);"></div>              
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="animated fadeIn" style="animation-delay: 1s">THE <span>CIRCLE</span></h2>   
+                <h3 class="animated fadeInUp" style="animation-delay: 1.5s">Closed community of the most driven,humble and informed Entrepreneurial Talent</h3>
+                <p class="animated fadeInUp" style="animation-delay: 1.5s"><a href="#thecircle">KNOW MORE</a></p>
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="carousel-item">
+                <div class="banner" style="background-image: url(./img/s2.png)"></div>                              
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="animated fadeIn" style="animation-delay: 1s">Build <span>Network</span></h2>   
+                    <h3 class="animated fadeInUp" style="animation-delay: 2.5s">An exclusive networking concept that brings together world-class entrepreneurs, investors and ecosystem builders</h3>
+                    <p class="animated fadeInUp" style="animation-delay: 3.5s"><a href="#attend">KNOW MORE</a></p>
+                    </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="carousel-item">
+              <div class="banner" style="background-image: url(./img/s4.png)"></div>              
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="animated fadeIn" style="animation-delay: 1s">Hand-picked <span>Community</span></h2>   
+              <h3 class="animated fadeInDown" style="animation-delay: 1.5s">Combination of the right people ensure a fruitful networking and learning experience for all members</h3>
+              <p class="animated flipInY" style="animation-delay: 2s"><a href="#meeups">KNOW MORE</a></p>
+              </div>
+          </div>
+          <!-- slide 4 -->
+          <div class="carousel-item">
+                <div class="banner" style="background-image: url(./img/s3.png)"></div>              
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="animated fadeIn" style="animation-delay: 1s">Join The <span>Circle</span></h2>   
+                <h3 class="animated fadeInDown" style="animation-delay: 1.5s">Aapplication and invitation are both required to attend The Circle</h3>
+                <p class="animated flipInY" style="animation-delay: 2s"><a href="#form">JOIN THE CIRCLE</a></p>
+                </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span  aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span  aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div> 
+      <!-- slidder  -->
+
+      <!-- section 2 -->
+    <section class="section2" id="thecircle">
+
+      <div class="main">
+            <div class="heading">
+                <h3>WHAT IS THE CIRCLE?</h3>
+                <p>The circle is a curated invite-only community of go-getters who are either in early stage of their startup journey or plan to start in the future, and understand the fundamentals of getting into a startup</p>
+              </div>
+        
+              <div class="row">
+                  <div class="col-md-3 col-sm-12 image">
+                    <img src="./img/1.png" alt="">
+                  </div>
+                  <div class="col-md-3 col-sm-12 image">
+                      <img src="./img/4.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-12 image">
+                        <img src="./img/3.png" alt="">
+                      </div>
+                      <div class="col-md-3 col-sm-12 image">
+                          <img src="./img/2.png" alt="">
+                        </div>
+                </div>
+        </div>
+        
+    </section>
+
+      <!-- section 3 -->
+      <section class="section3" id="attend">
+          <div class="heading">
+            <h3>Who should attend?</h3>
+            <p>Combination of the right people ensure a fruitful networking and learning experience for all members</p>
+          </div>
+          <div class="box">
+              <div class="row row1">
+                <div class="col-md-6 col-sm-12 image">
+                    <img src="./img/10.png" alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 content">
+                  <h3>Individuals who are in the early stages of their startup</h3>
+                </div>
+              </div>
+              <div class="row row2">
+                  <div class="col-md-6 col-sm-12 content">
+                      <h3>Individuals who plan to start in the near future </h3>
+                      </div>   
+                <div class="col-md-6 col-sm-12 image">
+                      <img src="./img/10.png" alt="">
+                  </div>
+                  
+                </div>
+                <div class="row row3">
+                    <div class="col-md-6 col-sm-12 image">
+                        <img src="./img/10.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 content">
+                      <h3>Individuals who are inclined to work with startups before starting one</h3>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
+          <!-- section 4 -->
+    <div class="section4" id="meetups">
+        <div class="heading">
+          <div class="box">
+          <h3>THE CIRCLE: <span>MEETUPS</span></h3>
+          <p>The circle meetups are closed 15 member brainstorming sessions over dinner, that happen twice a month, on every alternate weekend.</p>
+        </div>
+      </div>
+  
+      </div>
+
+       <!-- section 5 -->
+       <section class="section5" id="upcoming">
+          <div class="heading">
+            <h3>Upcoming Meetups</h3>
+            <p>Aapplication and invitation are both required to attend The Circle.</p>
+          </div>
+          <div class="box">
+              <div class="row row1">
+                  <div class="col-md-6 col-sm-12 content">
+                      <h3>THE CIRCLE</h3>
+                      <p>28th September 2019</p>
+                      <p>7 p.m onwards</p>
+                      <button class="bookCircle"><a href="#form">JOIN THE CIRCLE</a></button>
+                  </div>
+                  <div class="col-md-6 col-sm-12 image">
+                    <img src="./img/logofinal.jpg" alt="">
+                  </div>
+                
+              </div>
+              <!-- <div class="row row2">
+                  <div class="col-md-6 col-sm-12 content">
+                      <h3>Individuals who plan to start in the near future </h3>
+                  </div>
+                  <div class="col-md-6 col-sm-12 image">
+                      <img src="./img/logofinal.png" alt="">
+                  </div>
+                </div>
+            </div> -->
+
+        </section>
+
+    <!-- section 6 -->
+    <div class="section6" id="invitation">
+        <div class="heading">
+          <div class="box">
+          <h3>INVITATION <span>PROCESS</span></h3>
+          <p>It is a closed curated 15 member event Preliminary screening is done on the above parameters to ensure a fruitful networking and learning experience for all members</p>
+        </div>
+      </div>
+  
+      </div>
+
+      <!-- section 7 -->
+    <section class="section7" id="mission">
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pray">
+                            <img src="./img/missioncircle.png"
+                                alt="Pray">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1>THE CIRCLE: <span>MISSION</span></h1>
+                            <p class="pt-4">
+                                We realised there isn't a platform for 'Entrepreneurial Talent' to discuss & brainstorm ideas, get each other's input & insights on their early business model/product, as well as get guidance from industry veterans and entrepreneurs.
+                           </p>
+                           <br>
+                            <p>
+                                Hence, we decided to build a community of early stage to be entrepreneurs to enable them to kickstart their journey. It could be finding co-founders, doing market research, developing a unique insight, understanding their industry deeply, getting a sound advisory board, raising seed capital or something specific to their domain.                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+      </section>
+
+        <!-- section 8 -->
+    <section class="section8" id="form">
+      <div class="container-box">
+        <div class="heading">
+          <h3>JOIN THE CIRCLE</h3>
+          </div>
+
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Name <span>*</span></label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="number">Whatsapp Number</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number">
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="company">Current Company <span>*</span></label>
+                      <input type="text" class="form-control" id="company" placeholder="Current Company">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="designation">Designation  <span>*</span></label>
+                      <input type="text" class="form-control" id="designation" placeholder="Designation">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="email">Email  <span>*</span></label>
+                          <input type="text" class="form-control" id="email" placeholder="Email">
+                        </div>
+                      <div class="form-group col-md-6">
+                        <label for="profile">Linkedin Profile </label>
+                        <input type="text" class="form-control" id="profile" placeholder="Linkedin Profile">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">What is it that you are expecting from the meetup? <span>*</span></label>
+                        <textarea class="form-control" rows="5" id="comment" placeholder="max 300 words"></textarea>
+                      </div>
+               
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Keep me updated
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+      </section>
+
+       <!-- section 9 -->
+    <section class="section9" id="pastattendees">
+        <div class="heading">
+          <h3>Past Attendees</h3>
+          </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="./img/person.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                </p>
+                                <h3 class="testimonial-title">williamson</h3>
+                                <small class="post">/ Web Designer</small>
+                            </div>
+                        </div>
+         
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="./img/person.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                </p>
+                                <h3 class="testimonial-title">kristiana</h3>
+                                <small class="post">/ Web Developer</small>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="./img/person.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                </p>
+                                <h3 class="testimonial-title">kristiana</h3>
+                                <small class="post">/ Web Developer</small>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="./img/person.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                </p>
+                                <h3 class="testimonial-title">kristiana</h3>
+                                <small class="post">/ Web Developer</small>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="./img/person.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan diam. Suspendisse molestie nibh at tempor mollis. Integer aliquet facilisis felis, ac porta est cursus et. Vestibulum sollicitudin nisl ut urna egestas faucibus. Nullam pharetra, nisl eu feugiat.
+                                </p>
+                                <h3 class="testimonial-title">kristiana</h3>
+                                <small class="post">/ Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+             
+      </section>
+
+      <!-- section 10  -->
+      <section class="section10">
+          <div class="heading">
+            <h3>Host</h3>
+           </div>          
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 clearfix">
+                      <div class="col-sm-offset-1 col-sm-10">
+                          <div id="host-slider" class="owl-carousel">
+                              <div class="testimonial">
+                                  <p class="description">
+                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et."
+                                  </p>
+           
+                                  <div class="testimonial-review">
+                                      <div class="pic">
+                                          <img src="./img/person.jpg" alt="">
+                                      </div>
+                                      <h4 class="testimonial-title">
+                                          williamson
+                                          <small>Web Developer</small>
+                                      </h4>
+                                  </div>
+                              </div>
+                              <div class="testimonial">
+                                  <p class="description">
+                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et."
+                                  </p>
+           
+                                  <div class="testimonial-review">
+                                      <div class="pic">
+                                          <img src="./img/person.jpg" alt="">
+                                      </div>
+                                      <h4 class="testimonial-title">
+                                          williamson
+                                          <small>Web Developer</small>
+                                      </h4>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+        </section>
+      <!-- Footer  -->
+      <footer>
+
+          <div class="container-fluid p-0">
+
+              <div class="row text-left">
+                  <div class="col-md-5 col-sm-5">
+                      <h4 class="tex-light">CURIOUS TO KNOW MORE?
+                        </h4>
+                      <p class="text-muted">Everyone’s voice is heard and noticed at The Circle.<br>Fill up the form and let us know what you think.</p>
+                      <p class="pt-4 text-muted">
+                          &copy;2019 All rights reserved | <span>The Circle </span>
+                      </p>
+                  </div>
+                  <div class="col-md-5">
+                      <h4 class="text-light">Newsletter</h4>
+                      <p class="text-muted">Stay Updated</p>
+                      <form class="form-inline">
+                          <div class="col pl-0">
+                              <div class="input-group pr-5">
+                                  <input type="text" class="form-control
+                                      bg-dark text-white"
+                                      placeholder="Email">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                          <i class="fas fa-arrow-right"></i>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </form>
+
+                  </div>
+                  <div class="col-md-2 col-sm-12">
+
+                      <h4 class="text-light">Follow Us</h4>
+                      <p class="text-muted">Let us be social</p>
+                      <div class="coloumn">
+                          <i class="fab fa-facebook"></i> &nbsp
+                          <i class="fab fa-instagram"></i>
+                          <i class="fab fa-twitter"></i>
+                          <i class="fab fa-youtube"></i>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+      <!-- past attendees  -->
+     
+
+    <!-- my js -->
+     <script src="/js/fullnav.js"></script>
+
+      <!-- Navbar scroll effect  -->
+    <script>
+     var navul = document.getElementById("navlist")
+
+     $(window).scroll(function(){
+        $(navul).toggleClass('scrolled', $(this).scrollTop() > 105);
+       
+      });
+    </script>
+
+
+     <!-- For testimonial and host   -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+       <!-- testimonials  -->
+       <script>
+        $(document).ready(function(){
+            $("#testimonial-slider").owlCarousel({
+                items:2,
+                itemsDesktop:[1000,2],
+                itemsDesktopSmall:[980,1],
+                itemsTablet:[767,1],
+                pagination:false,
+                navigation:true,
+                navigationText:["",""],
+                slideSpeed:1000,
+                autoPlay:true
+            });
+        });
+        </script>
+
+        <!-- Host Carousel -->
+        <script>
+        $(document).ready(function(){
+            $("#host-slider").owlCarousel({
+                items:1,
+                itemsDesktop:[1199,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination: true,
+                navigation:true,
+                navigationText:["",""],
+                autoPlay:false
+            });
+        });
+        </script>
+
+  </body>
+</html>

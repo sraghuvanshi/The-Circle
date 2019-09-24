@@ -486,6 +486,11 @@ body.open:after {
   padding: 0px;
 }
 
+.section2 .main .row .image img {
+  height: 250px;
+  width: 250px;
+}
+
 @media only screen and (max-width: 1020px) {
   .section2 .row .image img {
     width: 20vw;

@@ -1426,5 +1426,8 @@ footer .gotop a {
   footer .col {
     margin-top: 40px;
   }
+  footer .gotop {
+    margin-top: -140px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

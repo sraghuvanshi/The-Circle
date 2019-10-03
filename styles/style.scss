@@ -1738,18 +1738,20 @@ footer .gotop {
   float: right;
   height:40px;
   width: 50px;
-  background-color: #8888;
+  background-color: #ff512f;
   margin-top:-100px;
-  color: #ff8533;
-  font-size:2.5rem;
+  color: #fff;
+  font-size:1.5rem;
   display:flex;
   justify-content: center;
+  a {
+    text-decoration: none;
+    color:inherit;
+    padding: 3px 13px 10px 13px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  padding: 10vmin;
-    footer {
-  }
 
   footer .row .col-md-2 {
     margin-top: 8vmin;
@@ -1760,6 +1762,12 @@ footer .gotop {
   footer {
     padding: 14vmin 18vmin;
   }
+  footer .col {
+    margin-top: 40px;
+  }
+  // footer .gotop {
+  //   margin-top:-140px;
+  // }
 }
 
 // footer end

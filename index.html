@@ -25,7 +25,7 @@
     <div class="navbar" id="navlist">
         <div class="brand"></div>
         <div class="nav-buttons">
-            <button class="bookCircle" type="submit"><a href="#join">join the circle</a></button>
+            <a href="#join">join the circle</a>
             <button class="full" onclick="openNav()"><i class="fal fa-bars"></i></button>
         </div>
         <div id="myNav" class="fullNav">
@@ -56,6 +56,9 @@
         </div>
     </div>
     <!-- Navbar -->
+
+    <div class="logo"></div>
+
     <!-- full menu  phone-->
     <div class="fullMenu">
         <!-- Navigation -->
@@ -80,13 +83,13 @@
     </div>
     <!-- full menu        -->
     <!-- header 1 phone -->
-    <!-- section 4 -->
-    <div class="section4 header1">
+    <!-- section 1 -->
+    <div class="section1 header1">
         <div class="heading">
             <div class="box">
-                <img src="./img/logo_circle.png" style="width:250px; height:250px;" />
+                <img src="./img/logo_circle.png">
                 <h3>the <span>circle</span></h3>
-                <p>Closed community of the most driven, humble and <br />informed entrepreneurial talent.</p>
+                <p>Closed community of the most driven, humble and informed entrepreneurial talent.</p>
             </div>
         </div>
     </div>
@@ -197,7 +200,7 @@
         <div class="heading">
             <h3>upcoming meetups</h3>
         </div>
-        <div class="box">
+        <!-- <div class="box">
             <div class="row row1">
                 <div class="col-md-6 col-sm-12 text-center content p-3">
                     <p>28th September 2019</p>
@@ -205,7 +208,23 @@
                     <button class="bookCircle"><a href="#join">JOIN THE CIRCLE</a></button>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <div class="card mb-3 m-auto event" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4 image">
+                <img src="img/logo_circle.png" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Indira Nagar, Bangalore</h5>
+                  <h6 class="card-text">8th October 2019</h6>
+                  <p class="card-text">7 p.m onwards</p>
+                  <a href="#join">join the circle</a>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <!-- section 8 -->
     <section class="section8" id="join">
@@ -268,7 +287,7 @@
     </section>
 
     <!-- section 10  -->
-    <section class="section10" id="team">
+    <!-- <section class="section10" id="team">
         <div class="heading">
             <h3>Team</h3>
         </div>
@@ -310,15 +329,53 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <!-- team  -->
+
+    <div class="team-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Team</h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="img/host1.jpg">
+                        <h3 class="name">Taranjeet Singh</h3>
+                        <p class="title">Full stack Developer</p>
+                        <p class="description">We realised there isn't a platform for 'Entrepreneurial Talent' to discuss & brainstorm ideas. Hence, we decided to build a community of early stage to-be entrepreneurs to enable them to kickstart their journey. </p>
+                        <div class="social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="img/host2.jpg">
+                        <h3 class="name">Bhavik Aggarwal</h3>
+                        <p class="title">Entrepreneur</p>
+                        <p class="description">We realised there isn't a platform for 'Entrepreneurial Talent' to discuss & brainstorm ideas. Hence, we decided to build a community of early stage to-be entrepreneurs to enable them to kickstart their journey. </p>
+
+                        <div class="social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-github"></i></a></div>                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="img/host3.jpg">
+                        <h3 class="name">Manvi Singh</h3>
+                        <p class="title">Influencer</p>
+                        <p class="description">We realised there isn't a platform for 'Entrepreneurial Talent' to discuss & brainstorm ideas. Hence, we decided to build a community of early stage to-be entrepreneurs to enable them to kickstart their journey. </p>
+                        <div class="social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer  -->
     <footer class="p-4">
         <div class="container-fluid p-0">
           <div class="row">
             <div class="col text-center">
-              <p>Reach us at hello@thecircle.community</p>
+              <p>Reach us at <b>hello@thecircle.community </b> </p>
               <small class="text-muted">
-                Copyright &copy; 2019 thecircle.community
+               <p>Copyright &copy; 2019 <span>thecircle.community</span></p>
               </small>
             </div>
           </div>

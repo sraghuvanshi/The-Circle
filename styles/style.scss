@@ -1734,9 +1734,21 @@ footer .coloumn i + i {
   padding: 0 0.5em;
 }
 
+footer .gotop {
+  float: right;
+  height:40px;
+  width: 50px;
+  background-color: #8888;
+  margin-top:-100px;
+  color: #ff8533;
+  font-size:2.5rem;
+  display:flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
-  footer {
-    padding: 10vmin;
+  padding: 10vmin;
+    footer {
   }
 
   footer .row .col-md-2 {
